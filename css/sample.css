@@ -1,0 +1,41 @@
+.main-div{
+	width: 80%;
+	margin: 0 auto;
+	background: grey;
+}
+
+.child-div{
+	float: left;
+	width: 30%;
+	margin: 5%;
+	padding: 5%;
+	background: yellow;
+}
+.left-div{
+
+}
+.right-div{
+
+}
+.final-div{
+	background: blue; 
+	float: left;
+	width: 30%;
+	margin: 5%;
+	padding: 5%;
+	display: none;
+}
+
+@media only screen and (max-width: 768px){
+	.left-div{
+		width: 80%;
+		display: none;
+	}
+	.right-div{
+		width: 80%;
+		clear: both;
+	}
+	.final-div{
+		display: block;
+	}
+}
